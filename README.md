@@ -71,3 +71,29 @@ python3 run_page/gen_svg.py --from-db --type circular --use-localtime
 ```
 pnpm develop
 ```
+
+# 仓库准备
+
+## Secrets and variables---Action
+
+KEEP_MOBILE
+
+KEEP_PASSWORD
+
+STRAVA_CLIENT_ID
+
+STRAVA_CLIENT_SECRET
+
+STRAVA_CLIENT_REFRESH_TOKEN
+
+## Actions---General
+
+in Workflow permissions to select Read and write permissions
+
+## Pages
+
+select GitHub Actions
+
+## Action
+
+Run Data Sync --- Run workflow
