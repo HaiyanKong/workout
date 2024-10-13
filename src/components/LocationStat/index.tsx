@@ -33,7 +33,7 @@ const LocationStat = ({
         Yesterday you said tomorrow.
       </p>
     </section>
-    <hr color="red" />
+    <hr color="#0F99A1" />
     <LocationSummary />
     <CitiesStat onClick={changeCity} />
     <PeriodStat onClick={changeType} />

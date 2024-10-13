@@ -195,7 +195,7 @@ const Index = () => {
     <Layout>
       <div className="w-full lg:w-1/4">
         <h1 className="my-12 text-5xl font-extrabold italic">
-          <a href="/">{siteTitle}</a>
+          <a>{siteTitle}</a>
         </h1>
         {(viewState.zoom ?? 0) <= 3 && IS_CHINESE ? (
           <LocationStat

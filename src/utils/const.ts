@@ -3,7 +3,7 @@ const MAPBOX_TOKEN =
     // For security reasons, please avoid using the default public token provided by Mapbox as much as possible.
   // Instead, manually add a new token and apply URL restrictions.
   // (please refer to https://github.com/yihong0618/running_page/issues/643#issuecomment-2042668580)
-  'pk.eyJ1IjoiYmVuLTI5IiwiYSI6ImNrZ3Q4Ym9mMDBqMGYyeXFvODV2dWl6YzQifQ.gSKoWF-fMjhzU67TuDezJQ';
+  'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -33,7 +33,7 @@ const GOOGLE_ANALYTICS_TRACKING_ID = '';
 // styling: set to `true` if you want dash-line route
 const USE_DASH_LINE = false;
 // styling: route line opacity: [0, 1]
-const LINE_OPACITY = 0.6;
+const LINE_OPACITY = 1;
 // styling: map height
 const MAP_HEIGHT = 600;
 //set to `false` if you want to hide the road label characters
@@ -44,18 +44,19 @@ const PRIVACY_MODE = false;
 const LIGHTS_ON = true;
 
 // IF you outside China please make sure IS_CHINESE = false
-const IS_CHINESE = true;
+const IS_CHINESE = false;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string =>
-  `户外运动 ${yearLength} 年 ` + ( year === 'Total' ? '' : `，地图展示的是 ${year} 年的轨迹`);
+  `我用 App 记录自己的运动数据 ${yearLength} 年了 ` + ( year === 'Total' ? '' : `，地图展示的是 ${year} 年的数据。`);
 
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
-  `Logged ${yearLength} Years of Outdoor Journey` +  ( year === 'Total' ? '' : `, the map show routes in ${year}`);
+  `This is my ${yearLength}-year workout data.` + 
+  (year !== 'Total' ? ` The map and table show data for ${year}.` : '');
 
 // not support English for now
 const CHINESE_LOCATION_INFO_MESSAGE_FIRST =
-  '我去过了一些地方，希望随着时间推移，地图点亮的地方越来越多';
-const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '不要停下来，不要停下探索的脚步';
+  '我去过的地方';
+const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '持续更新中......';
 
 const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
 const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
@@ -114,7 +115,8 @@ export {
   LIGHTS_ON,
 };
 
-const nike = 'rgb(224,237,94)';
+
+// change the main color change here /src/components/Layout
 const yellow = 'rgb(224,237,94)';
 const green = 'rgb(0,237,94)';
 const pink = 'rgb(237,85,219)';
@@ -123,23 +125,26 @@ const IKB = 'rgb(0,47,167)';
 const dark_vanilla = 'rgb(228,212,220)';
 const gold = 'rgb(242,190,69)';
 const purple = 'rgb(154,118,252)';
-const veryPeri = 'rgb(105,106,173)';//长春花蓝
-const red = 'rgb(255,0,0)';//大红色
+const veryPeri = 'rgb(105,106,173)';
+const red = 'rgb(255,0,0)';
+const lightred = 'rgb(244, 67, 54)';
+const nike = 'rgb(224,237,94)';
+const bluegreen = '#0A6267';
 
 // If your map has an offset please change this line
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
-export const MAIN_COLOR = green;
-export const RUN_COLOR = yellow;
-export const RIDE_COLOR = green;
-export const VIRTUAL_RIDE_COLOR = veryPeri;
-export const HIKE_COLOR = pink;
-export const SWIM_COLOR = gold;
-export const ROWING_COLOR = cyan;
-export const ROAD_TRIP_COLOR = purple;
-export const FLIGHT_COLOR = dark_vanilla;
+export const MAIN_COLOR = lightred;
+export const RUN_COLOR = bluegreen;
+export const RIDE_COLOR = bluegreen;
+export const VIRTUAL_RIDE_COLOR = bluegreen;
+export const HIKE_COLOR = bluegreen;
+export const SWIM_COLOR = bluegreen;
+export const ROWING_COLOR = bluegreen;
+export const ROAD_TRIP_COLOR = bluegreen;
+export const FLIGHT_COLOR = bluegreen;
+export const KAYAKING_COLOR = bluegreen;
 export const PROVINCE_FILL_COLOR = '#47b8e0';
 export const COUNTRY_FILL_COLOR = dark_vanilla;
-export const KAYAKING_COLOR = red;
 export const SNOWBOARD_COLOR = dark_vanilla;
 export const TRAIL_RUN_COLOR = IKB;

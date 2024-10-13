@@ -105,7 +105,7 @@ const YearStat = ({ year, onClick, onClickTypeInYear }: { year: string, onClick:
           <YearSVG className="my-4 h-4/6 w-4/6 border-0 p-0" />
         </Suspense>
       )}
-      <hr color="red" />
+      <hr color="#0C7A81" />
     </div>
   );
 };

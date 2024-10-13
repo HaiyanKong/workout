@@ -1,3 +1,6 @@
+# Project dependencies
+.yarn
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -43,6 +46,9 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
+*.pyc
+node_modules
+yarn-error.log
 nosetests.xml
 coverage.xml
 *.cover
@@ -145,15 +151,26 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# Build directory
+/build
+/dist
+.DS_Store
+.sass-cache/
+_posts/
+_site/
 # Pyre type checker
 .pyre/
 
 # pytype static type analyzer
 .pytype/
 
+/.vscode
+.idea
 # Cython debug symbols
 cython_debug/
 
+config.yaml
+.venv/
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
