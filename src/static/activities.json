@@ -1790,5 +1790,21 @@
 "elevation_gain": 22.1,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 12652285005,
+"name": "Afternoon Run\u270c\ufe0f",
+"distance": 5670.1,
+"moving_time": "0:39:40",
+"type": "Run",
+"start_date": "2024-10-14 09:53:38+00:00",
+"start_date_local": "2024-10-14 17:53:38",
+"location_country": "China",
+"summary_polyline": "}xesFi~geUo@SADEGBIFIL@BEAIDwADQAODSBODI?UFa@Ey@YyAo@aBWc@QQQWUSs@}@aA}@cBiB]c@EK?MH]|@qAXq@VwBPu@VqBXs@b@_Av@m@hAs@d@SnA[b@UVYv@sAf@g@NSFQ@mBIkA@i@SwCAs@Dk@@}@LgALa@Jm@^wALy@B}BCyAOy@W_AUc@Qi@G[?o@Hw@P{@Cg@Iu@@oALo@T{BLQXSLEH?PRJRPDHDZf@TFH?NEl@g@\\GLODi@AMM_@QaA[eAYgAA[Dc@COSW{@_@yAmAQIa@[q@QYK[G]ES@eAJ[LI@SCs@SOAcA@i@Co@Fi@BcAEc@DgAK]I[B[LYV[Ro@n@]h@{@j@_@No@Aq@S]WUQGKu@_BqAkBa@Mi@GI?[HI?QMIAUHWRm@p@]l@WZSFc@@QAWBOLCFEr@o@pDKZa@|@Ih@Qp@Ef@c@pAg@nB?XTtBK`CFvA?nA@JL`@P~@B`AN~A@nADvAC|DIlA?d@MjAUnAE`B@pAFb@?v@J`ADNVXN^Xd@XXZf@dArAZR`@n@^~@Nh@NdAT`A@jAHr@@j@Jp@Ph@Hd@Nn@`@bAb@t@Zt@f@b@^f@L^`@x@b@f@`@\\\\PnAXdAEb@DHCTId@k@x@q@Zi@Z_@H]Ti@F[Vi@Fa@Lk@Rc@NIX@JFVd@",
+"average_heartrate": 168.0,
+"average_speed": 2.382,
+"elevation_gain": 24.1,
+"source": "strava",
+"streak": 1
 }
 ]
