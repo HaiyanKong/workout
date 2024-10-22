@@ -22,10 +22,6 @@ const data: ISiteMetadataResult = {
       url: 'https://haiyankong.github.io/',
     },
     {
-      name: 'Strava',
-      url: 'https://www.strava.com/athletes/haiyankong',
-    },
-    {
       name: 'Tutorial',
       url: 'https://github.com/yihong0618/running_page',
     },
