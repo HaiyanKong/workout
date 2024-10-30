@@ -22,6 +22,10 @@ const data: ISiteMetadataResult = {
       url: 'https://haiyankong.github.io/',
     },
     {
+      name: '180 BPM Playlist',
+      url: 'https://open.spotify.com/playlist/2QTUvQfjO4Bcm3LqXzRoSp',
+    },
+    {
       name: 'Tutorial',
       url: 'https://github.com/yihong0618/running_page',
     },
