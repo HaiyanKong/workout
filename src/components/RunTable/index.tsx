@@ -33,7 +33,7 @@ const RunTable = ({
   const sortKMFunc: SortFunc = (a, b) =>
     sortFuncInfo === 'KM' ? a.distance - b.distance : b.distance - a.distance;
   const sortElevationGainFunc: SortFunc = (a, b) =>
-    sortFuncInfo === 'Elevation Gain'
+    sortFuncInfo === 'ElevationGain'
       ? (a.elevation_gain ?? 0) - (b.elevation_gain ?? 0)
       : (b.elevation_gain ?? 0) - (a.elevation_gain ?? 0);
   const sortPaceFunc: SortFunc = (a, b) =>
@@ -41,7 +41,7 @@ const RunTable = ({
       ? a.average_speed - b.average_speed
       : b.average_speed - a.average_speed;
   const sortBPMFunc: SortFunc = (a, b) => {
-    return sortFuncInfo === 'BPM'
+    return sortFuncInfo === 'HeartRate'
       ? (a.average_heartrate ?? 0) - (b.average_heartrate ?? 0)
       : (b.average_heartrate ?? 0) - (a.average_heartrate ?? 0);
   };
@@ -57,9 +57,9 @@ const RunTable = ({
   const sortFuncMap = new Map([
     ['Type', sortTypeFunc],
     ['KM', sortKMFunc],
-    ['Elevation Gain', sortElevationGainFunc],
+    ['ElevationGain', sortElevationGainFunc],
     ['Pace', sortPaceFunc],
-    ['BPM', sortBPMFunc],
+    ['HeartRate', sortBPMFunc],
     ['Time', sortRunTimeFunc],
     ['Date', sortDateFuncClick],
   ]);
