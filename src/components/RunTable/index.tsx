@@ -41,7 +41,7 @@ const RunTable = ({
       ? a.average_speed - b.average_speed
       : b.average_speed - a.average_speed;
   const sortBPMFunc: SortFunc = (a, b) => {
-    return sortFuncInfo === 'HeartRate'
+    return sortFuncInfo === 'Heart Rate'
       ? (a.average_heartrate ?? 0) - (b.average_heartrate ?? 0)
       : (b.average_heartrate ?? 0) - (a.average_heartrate ?? 0);
   };
@@ -59,7 +59,7 @@ const RunTable = ({
     ['KM', sortKMFunc],
     ['Elevation', sortElevationGainFunc],
     ['Pace', sortPaceFunc],
-    ['HeartRate', sortBPMFunc],
+    ['Heart Rate', sortBPMFunc],
     ['Duration', sortRunTimeFunc],
     ['Date', sortDateFuncClick],
   ]);
