@@ -134,16 +134,16 @@ const bluegreen = '#0A6267';
 // If your map has an offset please change this line
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
-export const MAIN_COLOR = lightred;
-export const RUN_COLOR = bluegreen;
-export const RIDE_COLOR = bluegreen;
-export const VIRTUAL_RIDE_COLOR = bluegreen;
-export const HIKE_COLOR = bluegreen;
-export const SWIM_COLOR = bluegreen;
-export const ROWING_COLOR = bluegreen;
-export const ROAD_TRIP_COLOR = bluegreen;
-export const FLIGHT_COLOR = bluegreen;
-export const KAYAKING_COLOR = bluegreen;
+export const MAIN_COLOR = nike;
+export const RUN_COLOR = nike;
+export const RIDE_COLOR = nike;
+export const VIRTUAL_RIDE_COLOR = nike;
+export const HIKE_COLOR = nike;
+export const SWIM_COLOR = nike;
+export const ROWING_COLOR = nike;
+export const ROAD_TRIP_COLOR = nike;
+export const FLIGHT_COLOR = nike;
+export const KAYAKING_COLOR = nike;
 export const PROVINCE_FILL_COLOR = '#47b8e0';
 export const COUNTRY_FILL_COLOR = dark_vanilla;
 export const SNOWBOARD_COLOR = dark_vanilla;

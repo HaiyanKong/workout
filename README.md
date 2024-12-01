@@ -5,7 +5,7 @@ Forked from [yihong0618](https://github.com/yihong0618)/[running_page](https://g
 ## 1 Ubuntu
 
 ```
-cd /mnt/d/para/a/website/workoutmap
+cd /mnt/d/para/a/website/workout
 ```
 
 ## 2 安装
