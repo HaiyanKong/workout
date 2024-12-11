@@ -18,10 +18,6 @@ const data: ISiteMetadataResult = {
   keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
   navLinks: [
     {
-      name: '180 BPM Playlist',
-      url: 'https://open.spotify.com/playlist/2QTUvQfjO4Bcm3LqXzRoSp',
-    },
-    {
       name: 'Repo',
       url: 'https://github.com/HaiyanKong/workout',
     },
