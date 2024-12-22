@@ -61,7 +61,7 @@ const YearStat = ({ year, onClick, onClickTypeInYear }: { year: string, onClick:
       {...eventHandlers}
     >
       <section>
-        <Stat value={year} description=" Journey" />
+        <Stat value={year} description=" year" />
         { sumDistance > 0 &&
           <WorkoutStat
             key='total'
@@ -91,14 +91,14 @@ const YearStat = ({ year, onClick, onClickTypeInYear }: { year: string, onClick:
             className="pb-2"
           />
         }
-        <Stat
+        {/* <Stat
           value={`${streak} day`}
           description=" Streak"
           className="pb-2"
-        />
-        {hasHeartRate && (
+        /> */}
+        {/* {hasHeartRate && (
           <Stat value={avgHeartRate} description=" Avg Heart Rate" />
-        )}
+        )} */}
       </section>
       {year !== 'Total' && hovered && (
         <Suspense fallback="loading...">
