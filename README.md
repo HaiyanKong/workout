@@ -2,8 +2,6 @@ Forked from [yihong0618](https://github.com/yihong0618)/[running_page](https://g
 
 # 同步数据
 
-# 同步数据
-
 ## 1 创建仓库
 
 Fork [ben-29](https://github.com/ben-29)/[workouts_page](https://github.com/ben-29/workouts_page) 到本地，本地路径为`D:\para\a\website\workout`，Ubuntu 运行
