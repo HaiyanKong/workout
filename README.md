@@ -49,7 +49,7 @@ curl -X POST https://www.strava.com/oauth/token \
 -F grant_type=authorization_code
 ```
 
-####  3.2.4最终运行
+####  3.2.4 最终运行
 
 ```
 python3(python) run_page/strava_sync.py ${client_id} ${client_secret} ${refresh_token}
@@ -89,6 +89,7 @@ pnpm develop
 
 页面样式在`...\src`文件夹修改
 
+`.gitignore`的内容也要注意修改
 
 # 仓库准备
 
@@ -114,7 +115,7 @@ select GitHub Actions
 
 ## Action
 
-Run Data Sync --- Run workflow
+Run Data Sync---Run workflow
 
 # 更新数据
 
