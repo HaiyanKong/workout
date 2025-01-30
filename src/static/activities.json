@@ -2222,5 +2222,21 @@
 "elevation_gain": 2.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 13491057051,
+"name": "Afternoon Run",
+"distance": 5976.7,
+"moving_time": "0:40:24",
+"type": "Run",
+"start_date": "2025-01-30 08:49:17+00:00",
+"start_date_local": "2025-01-30 16:49:17",
+"location_country": "China",
+"summary_polyline": "",
+"average_heartrate": 165.9,
+"average_speed": 2.466,
+"elevation_gain": 68.3,
+"source": "strava",
+"streak": 1
 }
 ]
