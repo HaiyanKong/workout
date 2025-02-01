@@ -2238,5 +2238,21 @@
 "elevation_gain": 68.3,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 13507679938,
+"name": "\u53c8\u5fd8\u6234\u624b\u5957\u4e86\uff0c\u624b\u5feb\u51bb\u50f5\u4e86\ud83d\ude07",
+"distance": 5691.1,
+"moving_time": "0:41:22",
+"type": "Run",
+"start_date": "2025-02-01 08:46:28+00:00",
+"start_date_local": "2025-02-01 16:46:28",
+"location_country": "China",
+"summary_polyline": "",
+"average_heartrate": 165.7,
+"average_speed": 2.293,
+"elevation_gain": 70.7,
+"source": "strava",
+"streak": 1
 }
 ]
